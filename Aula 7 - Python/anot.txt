@@ -1,0 +1,4 @@
+(inicio + fim)/2
+(0+11)/2 
+5quando o incio é igual o fim significa que o elemento não está na lista
+busca binária serve para achar um elemento na lista mt rápido
