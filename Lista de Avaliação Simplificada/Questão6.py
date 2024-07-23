@@ -15,7 +15,15 @@ for i in range (1,31):
             maior = n
         elif n < menor:
             menor = n
-print("O dia que mais choveu foi o {}° dia".format(list_pl.index(maior)+1))
-print("O dia que menos choveu foi o {}° dia".format(list_pl.index(menor)+1))        
-print("A média pluviométrica da primeira quinzena é {}%: ".format(s1/15))
-print("A média pluviométrica da segunda quinzena é {}%: ".format (s2/15))
+
+for j in range(len(list_pl)):
+    if list_pl[j] == maior:
+        print(f"O dia que mais choveu foi o {j+1}° dia")
+        break 
+for k in range(len(list_pl)):
+    if list_pl[k] == menor:
+        print(f"O dia que menos choveu foi o {k+1}° dia")
+        break  
+        
+print(f"A média pluviométrica da primeira quinzena é {s1/15} %")
+print(f"A média pluviométrica da segunda quinzena é {s2/15} %")
