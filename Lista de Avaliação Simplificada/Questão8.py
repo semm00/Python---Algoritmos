@@ -1,5 +1,4 @@
-import random
-a = [[random.randint(1,10)for j in range(3)]for i in range(3)]
+a = [[int(input("Digite um número: ")) for j in range(3)]for i in range(3)]
 b=[]
 for i in range(3):
     for j in range(3):
